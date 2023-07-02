@@ -8,6 +8,7 @@ urlpatterns = [
     path("restaurant", views.restaurant, name="restaurant"),
     path("login", views.login, name="login"),
     path("ourteam", views.OurTeam, name="ourteam"),
+    path("shakes", views.shakes, name="shakes"),
     path("cart", views.cart, name="cart"),
    
 ]
