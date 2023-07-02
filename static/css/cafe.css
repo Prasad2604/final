@@ -1,0 +1,360 @@
+
+
+
+* {
+    padding: 0px;
+    margin: 0;
+    /* font-family: 'Lobster Two', cursive; */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    border: 2px solid orange;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.navbar a:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+}
+
+
+  
+.navbar .navbar-button {
+    /* Button styles */
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    /* Add any other styles as needed */
+  }
+  
+.popover-content .navbar-button {
+    /* Styles for the button within the popover content */
+    background-color: #00f;
+    color: #fff;
+    /* Add any other styles as needed */
+  }
+  
+
+
+
+.navbar input {
+    padding: 3px 4px;
+}
+
+.search {
+    color: white;
+    padding: 12px 75px;
+    height : 45px;
+    width : 200px;
+    border-radius: 10px;
+}
+.container2{
+    width: auto;
+    height: 500px;
+    background-image: url('{% static "/image/cafe.jpg"}');
+    background-size:cover ;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("/image/greywall.jpg");
+    background-size: cover;*/
+    background-color: rgb(239, 236, 231);
+} 
+
+.bg-img {
+    /* max-width: 100%;
+    max-height: 100%;
+    background-image: linear-gradient(rgb(238, 235, 233), rgb(75, 144, 223)); */
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("/image/greywall.jpg");
+    background-size: cover; */
+    background-color: rgb(195, 190, 187);
+}
+
+.cafe_img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+/* .cafe_img :hover{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+} */
+.container{
+    display: flex;
+
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("/image/greywall.jpg");
+    background-size: cover;*/
+    background-color: rgb(195, 190, 187);
+}
+.box_shakes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+.box_shakes:hover{
+    transform: scale(1.1);
+}
+.shakes{
+    font-size: large;
+    font-weight: 100;
+    
+    
+}
+.name{
+    height: 80px;
+    width: 430px;
+    color : white;
+    background-color: rgb(3, 3, 3);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.name a{
+    color: white;
+}
+
+.spacer1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item1 {
+    width: 300px;
+    height: 400PX;
+    background-color: #f1f1f1;
+    border-radius: 45px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 3px solid #000;
+    transition: 0.7s;
+}
+
+.item1 img {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+.item1-content {
+    padding: 16px;
+}
+
+.item1-title {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.item1-text {
+    margin-bottom: 16px;
+    margin: 20px;
+}
+
+.item1-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.item1:hover{
+    transform: scale(0.9);
+}
+
+.item2 {
+    width: 300px;
+    height: 400PX;
+    background-color: #f1f1f1;
+    border-radius: 45px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 3px solid #000;
+    transition: 0.7s;
+}
+
+.item2 img {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+.item2-content {
+    padding: 16px;
+}
+
+.item2-title {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.item2-text {
+    margin-bottom: 16px;
+    margin: 15px;
+}
+
+.item2-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.item2:hover{
+    transform: scale(0.9);
+}
+
+.spacer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+/* .space{
+    transition: 1s;
+}
+.spacer:hover{
+    transform: scale(1.1);
+} */
+
+.spacer {
+
+    float: left;
+
+}
+
+.item3 {
+    width: 300px;
+    height: 400PX;
+    background-color: #f1f1f1;
+    border-radius: 45px;
+    margin: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 3px solid #000;
+    transition: 0.7s;
+    
+}
+
+.item3 img {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+.item3-content {
+    padding: 16px;
+}
+
+.item3-title {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.item3-text {
+    margin-bottom: 16px;
+    margin: 10px;
+}
+
+.item3-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.item3:hover{
+    transform: scale(0.9);
+}
+
+.footer {
+    height: 300px;
+    width: auto;
+    background-color: #070606;
+    display: flex;
+}
+
+ul {
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    padding: 60px;
+}
+
+ul h4 {
+    color: #db9003;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0,3px,3px,3px;
+    padding-bottom: 10px;
+}
+
+ul p {
+    color: rgb(245, 245, 239);
+    display: block;
+    padding: 5px
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(79, 79, 71);
+    background-color: #f1f1f1;
+}
+
+.btt {
+    background-color: rgb(53, 49, 49);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.btt a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 200;
+}
+.btt a:hover{
+    color:orange;
+}

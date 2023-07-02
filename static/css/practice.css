@@ -1,0 +1,14 @@
+.container{
+    width : 100%;
+    height: 100vh;
+    background-image: url("./image/Cheese\ Maggie.jpeg");
+    background-size: cover;
+}
+.h{
+    /* color: aliceblue;
+    background-color: black; */
+    display: flex;
+    justify-content: center;
+    /* text-align: center;
+    align-items: center; */
+}
